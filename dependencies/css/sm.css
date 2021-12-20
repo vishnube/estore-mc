@@ -1,0 +1,22 @@
+/* sm - For Small devices having width above 576px */
+
+@media (min-width: 576px) {
+    .modal.modal-fullscreen-sm {
+        padding: 0 !important;
+        /* override inline padding-right added from js*/
+    }
+    .modal.modal-fullscreen-sm .modal-dialog {
+        width: 100%;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .modal.modal-fullscreen-sm .modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .modal.modal-fullscreen-sm .modal-body {
+        overflow-y: auto;
+    }
+}

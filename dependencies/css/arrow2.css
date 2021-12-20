@@ -1,0 +1,159 @@
+.arrow {
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.arrow-snap.arrow {
+    background-color: #0e8dbc;
+    border-color: #0e8dbc;
+    color: #FFFFFF;
+}
+
+.arrow-snap.arrow::before {
+    background-color: #0e8dbc;
+    border-color: #0e8dbc;
+}
+
+.arrow-warning.arrow {
+    background-color: var(--warning);
+    color: #FFFFFF;
+    border-color: var(--warning);
+}
+
+.arrow-warning.arrow::before {
+    background-color: var(--warning);
+    border-color: var(--warning);
+}
+
+.arrow-danger.arrow {
+    background-color: var(--danger);
+    color: var(--white);
+    border-color: var(--danger);
+}
+
+.arrow-danger.arrow::before {
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+
+.arrow-primary.arrow {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+.arrow-primary.arrow::before {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.arrow-success.arrow {
+    background-color: var(--success);
+    color: var(--white);
+    border-color: var(--success);
+}
+
+.arrow-success.arrow::before {
+    background-color: var(--success);
+    border-color: var(--success);
+}
+
+/* Below small devices having width up to 576px */
+
+@media (max-width: 576px) {
+    .page-title {
+        display: block;
+    }
+    .arrow {
+        height: 50px;
+        padding: 10px 5px;
+        font-size: 20px;
+        font-weight: revert;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+/* For Small devices having width above 576px */
+
+@media (min-width: 576px) {
+    .page-title {
+        position: absolute;
+        right: 21px;
+        top: 6px;
+    }
+    .arrow {
+        height: 43px;
+        padding: 2px 32px 0px 22px;
+        border-top: 2px solid;
+        position: relative;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .arrow::before {
+        content: "";
+        border-bottom: 2px solid;
+        border-left: 2px solid;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 5px;
+        left: -16px;
+    }
+    .arrow::after {
+        content: "";
+        height: 31px;
+        width: 31px;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 5px;
+        right: -16px;
+        background-color: #fff;
+        border-color: #fff;
+    }
+}
+
+/* For Large devices having width above 576px */
+
+@media (min-width: 992px) {
+    .page-title {
+        position: absolute;
+        right: 21px;
+        top: 6px;
+    }
+    .arrow .page_head {
+        font-size: 34px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .arrow {
+        height: 65px;
+        padding: 2px 40px 0px 62px;
+        border-top: 4px solid;
+        border-bottom: 4px solid;
+        position: relative;
+        text-align: left;
+    }
+    .arrow::before {
+        content: "";
+        border-bottom: 4px solid;
+        border-left: 4px solid;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 7px;
+        left: -23px;
+    }
+    .arrow::after {
+        content: "";
+        height: 44px;
+        width: 44px;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 6px;
+        right: -22px;
+        background-color: #fff;
+        border-color: #fff;
+    }
+}

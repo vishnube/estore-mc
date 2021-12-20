@@ -1,0 +1,59 @@
+#product_window #prod-list-table tr.active td {
+    background-color: #bef6e1;
+}
+
+#product_window .nav-link.disabled {
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+}
+
+#product_window #tbl_pdbch thead th {
+    vertical-align: middle;
+    box-shadow: none;
+    font-weight: normal;
+    background-color: #502020;
+    color: burlywood;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+#product_window #tbl_pdbch tbody td {
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+#product_window #tbl_pdbch tbody .pdbch-row td {
+    padding: 2px 5px;
+    font-size: 15px;
+    border-top: 2px dashed #06abfc;
+}
+
+#product_window #tbl_pdbch tbody .gdn-row td {
+    padding: 2px 5px 10px 5px;
+    font-size: 12px;
+    border-bottom: 2px dashed #06abfc;
+}
+
+#product_window #tbl_pdbch tbody tr.active td {
+    background-color: #bef6e1;
+}
+
+#product_window input:focus, #product_window select:focus {
+    background-color: #befac5;
+}
+
+#product_window .gdn-stock:focus {
+    outline: 8px ridge burlywood;
+}
+
+#product_window .batch-row-handler:focus {
+    outline: 2px dashed red;
+}
+
+#product_window .apply:focus {
+    outline: 2px dashed yellow;
+}
+
+#product_window .closer:focus, #product_window .close:focus {
+    outline: 2px dashed yellow;
+}

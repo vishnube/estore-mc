@@ -1,0 +1,226 @@
+/* ADDED BY SHIHAB **/
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.error {
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+	font-size: 80%;
+	color: #f72548;
+}
+
+.pgn-num {
+	font-weight: bolder;
+}
+
+input:disabled {
+	cursor: not-allowed;
+}
+
+.sr-tbl-cont {
+	/* 
+	Making height to screen (Viewport) height. 
+	1vh = 1% of the viewport's height. */
+	height: 98vh;
+	border: none;
+}
+
+.sr-tbl-reports tbody tr.active td {
+	background-color: #f6eae4;
+}
+
+.sr-tbl-reports tbody tr.active2 td {
+	background-color: #d6f8e8;
+}
+
+/* To Highlight the selected element */
+
+.sr-wraper {
+	padding: 23px 2px 10px 2px;
+	margin: 2px 0;
+}
+
+.sr-wraper.sr-check, .sr-wraper.sr-rad {
+	padding: 5px 0px 5px 5px;
+}
+
+.sr-wraper.active {
+	background-color: #e9f4f7;
+	border: 1px solid #d0eef6;
+	border-radius: 7px;
+}
+
+.sr-wraper-bold {
+	padding: 5px;
+	display: inline-block;
+}
+
+.sr-wraper-bold.active {
+	background-color: #d0eef6;
+	border: 1px solid #c7effa;
+	border-radius: 7px;
+}
+
+/**  END Highlight */
+
+.sr-mdt-lbl:after {
+	/* Mandatory Label */
+	color: red;
+	content: " *";
+}
+
+.sr-page-nave a.nav-link.active {
+	border-top: 5px solid #fb1089 !important;
+}
+
+.sr-tbl-reports td, .sr-tbl-reports th {
+	border-color: #bec5cd !important;
+}
+
+.sr-tbl-reports .dv-ramp {
+	position: relative;
+	display: inline;
+}
+
+.sr-tbl-reports .dv-ramp .ramp, .sr-tbl-reports .dv-ramp .ramp2 {
+	color: #fff;
+	font-size: 9px;
+	cursor: pointer;
+	position: absolute;
+	right: -10px;
+	top: 0px;
+}
+
+.sr-tbl-reports thead th {
+	background-color: #0e8dbc !important;
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.sr-go-to-tbl {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.sr-form-tag {
+	position: relative;
+	padding-left: 65px;
+}
+
+.sr-form-tag .sr-form-title {
+	font-size: 2rem;
+}
+
+.sr-form-tag .sr-form-icon {
+	font-size: 1.5rem;
+	position: absolute;
+	left: 0px;
+	top: -3px;
+}
+
+.sr-wraper .form-control {
+	border-radius: 0px !important;
+}
+
+.sr-wraper .form-group {
+	position: relative;
+}
+
+.sr-wraper .form-group label, .sr-file-label {
+	position: absolute;
+	top: -21px;
+	left: 5px;
+	color: #0877c2;
+	padding: 0px 8px;
+	font-family: "RobotoCondensed-Italic";
+	font-size: 14px;
+	font-weight: lighter;
+	margin: 0px;
+	z-index: 1;
+	background-color: #fff;
+	/* -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); */
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid;
+	border-bottom: none;
+}
+
+.sr-wraper:not(.active) .form-group label {
+	border-color: #ced4da;
+}
+
+.sr-wraper.active .form-group label {
+	border-color: #80bdff;
+}
+
+.sr-label {
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid #ced4da;
+	border-bottom: none;
+	color: #0877c2;
+	padding: 0px 8px;
+	font-family: "RobotoCondensed-Italic";
+	font-size: 14px;
+	font-weight: lighter !important;
+}
+
+.green-code {
+	padding: 2px 4px;
+	border-radius: 2px !important;
+	border: 1px solid rgba(0, 0, 0, 0.12) !important;
+	background-color: #F9F2F4;
+	color: #00ce17;
+	font-size: 14px;
+	font-family: "Courier New", monospace;
+}
+
+.code-block {
+	padding: 2px 4px;
+	border-radius: 2px !important;
+	border: 1px solid rgba(0, 0, 0, 0.12) !important;
+	background-color: #F9F2F4;
+	color: #ca4440;
+	font-size: 14px;
+	font-family: "Courier New", monospace;
+}
+
+.code-block-sm {
+	padding: 2px 4px;
+	border-radius: 2px !important;
+	border: 1px solid rgba(0, 0, 0, 0.12) !important;
+	background-color: #F9F2F4;
+	color: #ca4440;
+	font-size: 10px;
+	font-family: "Courier New", monospace;
+}
+
+.code-block-nowrap {
+	background-color: #F9F2F4;
+	border-radius: 2px !important;
+	border: 1px solid rgba(0, 0, 0, 0.12) !important;
+	color: #ca4440;
+	font-size: 14px;
+	padding: 2px 4px;
+	white-space: nowrap;
+	font-family: "Courier New", monospace;
+}
+
+.query {
+	display: none;
+	width: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	height: 130px;
+	padding: 10px;
+}
+
+.sr-bknote {
+	color: #c8bebe;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+}

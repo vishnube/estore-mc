@@ -1,0 +1,5 @@
+/* xs - Extra Small Devices. Below small devices having width up to 576px */
+
+@media (max-width: 576px) {
+    .some-class {}
+}

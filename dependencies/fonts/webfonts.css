@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+@font-face {
+	font-family: 'RobotoSlab-Bold';
+	src: url('RobotoSlab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoSlab-Black';
+	src: url('RobotoSlab-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoSlab-Thin';
+	src: url('RobotoSlab-Thin.ttf') format('truetype');
+}
+*/
+
+@font-face {
+	font-family: 'RobotoCondensed-Italic';
+	src: url('RobotoCondensed-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoSlab-Light';
+	src: url('RobotoSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoSlab-Medium';
+	src: url('RobotoSlab-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BebasNeue-Regular';
+	src: url('BebasNeue-Regular.ttf') format('truetype');
+}

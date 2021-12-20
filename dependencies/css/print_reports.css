@@ -1,0 +1,76 @@
+@media print {}
+
+@media screen, print {
+    .print-data {
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        /* To fit A4*/
+        width: 210mm;
+    }
+    .print-data .div-row {
+        height: 95px;
+    }
+    .print-data svg.bix {
+        margin-left: -44px;
+        margin-top: -10px;
+    }
+    .print-data svg.spx {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .print-data .div-row .div-col {
+        height: 100%;
+        float: left;
+    }
+    .print-data .tpoy {
+        margin-top: -14px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .print-data .title1 {
+        font-size: 40px;
+        text-align: left;
+        font-weight: bold;
+        font-family: "BebasNeue-Regular";
+        white-space: nowrap;
+        height: 52px;
+    }
+    .print-data .title2 {
+        font-size: 23px;
+        text-align: left;
+        font-family: "RobotoSlab-Medium";
+        white-space: nowrap;
+        height: 30px;
+    }
+    .print-data .title3 {
+        font-size: 23px;
+        text-align: left;
+        font-family: "RobotoSlab-Medium";
+        white-space: nowrap;
+        height: 30px;
+    }
+    .print-data .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .print-data table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .print-data table th {
+        padding: 2px 7px;
+        text-align: center;
+        border-bottom: 4px solid black;
+    }
+    .print-data table td {
+        border: 1px solid #999;
+        padding: 2px;
+    }
+    .print-data table tr th:first-child, .print-data table tr td:first-child {
+        border-left: none;
+    }
+    .print-data table tr th:last-child, .print-data table tr td:last-child {
+        border-right: none;
+    }
+}
